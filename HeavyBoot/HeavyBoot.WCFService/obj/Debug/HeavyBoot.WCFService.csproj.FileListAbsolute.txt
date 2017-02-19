@@ -1,0 +1,13 @@
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.WCFService.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.WCFService.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.WCFService.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\EntityFramework.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.DAL.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.DAL.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\HeavyBoot.DAL.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\EntityFramework.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.pdb

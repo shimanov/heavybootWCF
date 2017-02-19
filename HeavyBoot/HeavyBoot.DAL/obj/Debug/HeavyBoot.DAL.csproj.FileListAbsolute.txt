@@ -1,0 +1,9 @@
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\HeavyBoot.DAL.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\HeavyBoot.DAL.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\HeavyBoot.DAL.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\obj\Debug\HeavyBoot.DAL.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\obj\Debug\HeavyBoot.DAL.pdb

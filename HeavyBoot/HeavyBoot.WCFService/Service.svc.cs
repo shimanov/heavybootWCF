@@ -9,8 +9,6 @@ using HeavyBoot.DAL.Entitys;
 
 namespace HeavyBoot.WCFService
 {
-    // ПРИМЕЧАНИЕ. Команду "Переименовать" в меню "Рефакторинг" можно использовать для одновременного изменения имени класса "Service" в коде, SVC-файле и файле конфигурации.
-    // ПРИМЕЧАНИЕ. Чтобы запустить клиент проверки WCF для тестирования службы, выберите элементы Service.svc или Service.svc.cs в обозревателе решений и начните отладку.
     public class Service : IService
     {
         public HBDataTable DataTable(string pcname, DateTime dataimport)

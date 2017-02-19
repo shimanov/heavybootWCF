@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.DAL", "HeavyBoot.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.WCFService", "HeavyBoot.WCFService\HeavyBoot.WCFService.csproj", "{DC427CE9-E50A-4927-94B8-21E5D1196418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.Host", "HeavyBoot.Host\HeavyBoot.Host.csproj", "{98FA9DD1-D00E-47A5-9AB2-891FC8841394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FA9DD1-D00E-47A5-9AB2-891FC8841394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FA9DD1-D00E-47A5-9AB2-891FC8841394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FA9DD1-D00E-47A5-9AB2-891FC8841394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FA9DD1-D00E-47A5-9AB2-891FC8841394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
