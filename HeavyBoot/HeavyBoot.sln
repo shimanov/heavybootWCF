@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26127.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.DAL", "HeavyBoot.DAL\HeavyBoot.DAL.csproj", "{3C45B59C-85B6-40AA-9409-C05474AC7CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.WCFService", "HeavyBoot.WCFService\HeavyBoot.WCFService.csproj", "{DC427CE9-E50A-4927-94B8-21E5D1196418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3C45B59C-85B6-40AA-9409-C05474AC7CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C45B59C-85B6-40AA-9409-C05474AC7CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C45B59C-85B6-40AA-9409-C05474AC7CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC427CE9-E50A-4927-94B8-21E5D1196418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

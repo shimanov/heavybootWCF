@@ -5,11 +5,11 @@ namespace HeavyBoot.DAL.DatabaseConnection
 {
     public class Dbconnection : DbContext
     {
-        public Dbconnection() : base("")
+        public Dbconnection() : base("Connection")
         {
             
         }
 
-        public DbSet<DataTable> DataTables { get; set; }
+        public DbSet<HBDataTable> HbDataTables { get; set; }
     }
 }

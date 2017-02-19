@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseConnection\Dbconnection.cs" />
-    <Compile Include="Entitys\DataTable.cs" />
+    <Compile Include="Entitys\HBDataTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
