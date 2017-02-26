@@ -1,0 +1,16 @@
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.WCFService.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.DAL.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\EntityFramework.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.WCFService.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.WCFService.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.DAL.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.DAL.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\EntityFramework.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.ProjectInstaller.resources
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.pdb

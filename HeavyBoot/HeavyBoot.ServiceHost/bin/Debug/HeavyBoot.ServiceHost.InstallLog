@@ -1,0 +1,26 @@
+﻿Выполняется установка сборки 'C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.InstallLog
+   assemblypath = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe
+Устанавливается служба HeavyBootHost...
+Служба HeavyBootHost успешно установлена.
+Создается исходный EventLog HeavyBootHost в журнале Application...
+Выполняется фиксация сборки 'C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.InstallLog
+   assemblypath = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe
+Выполняется установка сборки 'C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.InstallLog
+   assemblypath = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe
+Устанавливается служба HeavyBootHost...
+Служба HeavyBootHost успешно установлена.
+Создается исходный EventLog HeavyBootHost в журнале Application...
+Выполняется фиксация сборки 'C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.InstallLog
+   assemblypath = C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\HeavyBoot.ServiceHost.exe

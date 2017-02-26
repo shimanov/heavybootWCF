@@ -12,11 +12,13 @@ namespace HeavyBoot.DAL.Entitys
         [Key]
         public string Pcname { get; set; }
 
-        //Время когда я отправляю запрос на клиента
-        public DateTime Dataexport { get; set; }
+        public DateTime DateServer { get; set; }
 
-        //Когда клиент последний раз стучался на сервер
-        public DateTime Dataimport { get; set; }
+        public DateTime DateClient { get; set; }
+
+        public DateTime ExporTime { get; set; }
+
+        public DateTime ImportTime { get; set; }
 
         public bool IsChecked { get; set; }
     }

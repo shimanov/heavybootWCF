@@ -5,5 +5,6 @@ C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoo
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.xml
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\obj\Debug\HeavyBoot.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\obj\Debug\HeavyBoot.DAL.dll
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.DAL\obj\Debug\HeavyBoot.DAL.pdb

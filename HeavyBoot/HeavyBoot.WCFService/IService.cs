@@ -8,6 +8,6 @@ namespace HeavyBoot.WCFService
     public interface IService
     {
         [OperationContract]
-        HBDataTable DataTable(string pcname, DateTime dataimport);
+        bool DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime);
     }
 }
