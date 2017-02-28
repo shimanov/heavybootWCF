@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyBoot.ServiceHost", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\..\keeper2\ConsoleApp1\ConsoleApp1.csproj", "{1CDA0754-14DB-4114-8982-661D8156F9AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{6A73B0EE-ACCD-4550-BB65-1086F2A7C628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1CDA0754-14DB-4114-8982-661D8156F9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CDA0754-14DB-4114-8982-661D8156F9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CDA0754-14DB-4114-8982-661D8156F9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A73B0EE-ACCD-4550-BB65-1086F2A7C628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A73B0EE-ACCD-4550-BB65-1086F2A7C628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A73B0EE-ACCD-4550-BB65-1086F2A7C628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A73B0EE-ACCD-4550-BB65-1086F2A7C628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

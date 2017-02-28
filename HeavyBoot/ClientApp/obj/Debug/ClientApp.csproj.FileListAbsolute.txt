@@ -1,0 +1,6 @@
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\ClientApp\obj\Debug\ClientApp.pdb
