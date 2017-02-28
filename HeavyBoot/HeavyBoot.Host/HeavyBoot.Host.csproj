@@ -58,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HeavyBoot.DAL\HeavyBoot.DAL.csproj">
+      <Project>{3c45b59c-85b6-40aa-9409-c05474ac7cbf}</Project>
+      <Name>HeavyBoot.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HeavyBoot.WCFService\HeavyBoot.WCFService.csproj">
       <Project>{dc427ce9-e50a-4927-94b8-21e5d1196418}</Project>
       <Name>HeavyBoot.WCFService</Name>

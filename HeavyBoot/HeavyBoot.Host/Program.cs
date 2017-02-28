@@ -5,9 +5,9 @@ namespace HeavyBoot.Host
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            using (var host = new ServiceHost(typeof(HeavyBoot.WCFService.Service)))
+            using (var host = new ServiceHost(typeof(WCFService.Service)))
             {
                 host.Open();
 

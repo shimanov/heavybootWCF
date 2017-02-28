@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ServiceModel;
-using HeavyBoot.DAL.Entitys;
 
 namespace HeavyBoot.WCFService
 {
@@ -8,6 +7,6 @@ namespace HeavyBoot.WCFService
     public interface IService
     {
         [OperationContract]
-        bool DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime);
+        string DataTable(string pcname, DateTime dateServer, DateTime dateClient, DateTime exporTime, DateTime importTime);
     }
 }
