@@ -16,7 +16,8 @@ namespace ClientApp.Classes
 
         public void CleanFolderImport()
         {
-            throw new NotImplementedException();
+            string deleteExportPath = @"C:\GMMQ\Import";
+            DeleteFolder(deleteExportPath);
         }
 
         public DateTime ExportTime()
