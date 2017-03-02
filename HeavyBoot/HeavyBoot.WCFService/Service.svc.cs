@@ -9,8 +9,7 @@ namespace HeavyBoot.WCFService
     [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class Service : IService
     {
-        public string DataTable(string pcname, DateTime dateServer,
-            DateTime dateClient, DateTime exporTime, DateTime importTime)
+        public string DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime)
         {
             //Соединение с БД
             var dbconnection = new Dbconnection();
@@ -25,10 +24,9 @@ namespace HeavyBoot.WCFService
                     var data = dbconnection.HbDataTables
                         .Where(x => x.Pcname == pcname)
                         .Select(x => x).ToArray();
-                    dataTable.DateServer = DateTime.Now;
-                    dataTable.DateClient = DateTime.Now;
-                    dataTable.ExporTime = DateTime.Now;
-                    dataTable.ImportTime = DateTime.Now;
+                    dataTable.DateClient = dateClient;
+                    dataTable.ExporTime = exporTime;
+                    dataTable.ImportTime = importTime;
                     dbconnection.SaveChanges();
                     return data + "_запись изменена";
                 }
@@ -43,10 +41,10 @@ namespace HeavyBoot.WCFService
                 dbconnection.HbDataTables.Add(new HBDataTable
                 {
                     Pcname = pcname,
-                    DateClient = DateTime.Now,
+                    DateClient = dateClient,
                     DateServer = DateTime.Now,
-                    ExporTime = DateTime.Now,
-                    ImportTime = DateTime.Now
+                    ExporTime = exporTime,
+                    ImportTime = importTime
                 });
                 dbconnection.SaveChanges();
                 return pcname + "_добавлено";
