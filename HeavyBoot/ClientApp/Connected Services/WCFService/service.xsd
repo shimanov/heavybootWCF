@@ -7,13 +7,14 @@
         <xs:element minOccurs="0" name="dateClient" type="xs:dateTime" />
         <xs:element minOccurs="0" name="exporTime" type="xs:dateTime" />
         <xs:element minOccurs="0" name="importTime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="isCkecked" type="xs:boolean" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="DataTableResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="DataTableResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataTableResult" type="xs:dateTime" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

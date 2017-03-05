@@ -16,10 +16,10 @@ namespace ClientApp.WCFService {
     public interface IService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DataTable", ReplyAction="http://tempuri.org/IService/DataTableResponse")]
-        string DataTable(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime);
+        System.DateTime DataTable(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime, bool isCkecked);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DataTable", ReplyAction="http://tempuri.org/IService/DataTableResponse")]
-        System.Threading.Tasks.Task<string> DataTableAsync(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime);
+        System.Threading.Tasks.Task<System.DateTime> DataTableAsync(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime, bool isCkecked);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +49,12 @@ namespace ClientApp.WCFService {
                 base(binding, remoteAddress) {
         }
         
-        public string DataTable(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime) {
-            return base.Channel.DataTable(pcname, dateClient, exporTime, importTime);
+        public System.DateTime DataTable(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime, bool isCkecked) {
+            return base.Channel.DataTable(pcname, dateClient, exporTime, importTime, isCkecked);
         }
         
-        public System.Threading.Tasks.Task<string> DataTableAsync(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime) {
-            return base.Channel.DataTableAsync(pcname, dateClient, exporTime, importTime);
+        public System.Threading.Tasks.Task<System.DateTime> DataTableAsync(string pcname, System.DateTime dateClient, System.DateTime exporTime, System.DateTime importTime, bool isCkecked) {
+            return base.Channel.DataTableAsync(pcname, dateClient, exporTime, importTime, isCkecked);
         }
     }
 }

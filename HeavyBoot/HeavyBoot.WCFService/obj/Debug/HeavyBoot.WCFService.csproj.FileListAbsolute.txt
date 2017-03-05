@@ -11,3 +11,5 @@ C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoo
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.csprojResolveAssemblyReference.cache
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.dll
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\obj\Debug\HeavyBoot.WCFService.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\ru\EntityFramework.resources.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.WCFService\bin\ru\EntityFramework.SqlServer.resources.dll

@@ -9,7 +9,7 @@ namespace HeavyBoot.WCFService
     [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class Service : IService
     {
-        public string DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime)
+        public DateTime DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime, bool isCkecked)
         {
             //Соединение с БД
             var dbconnection = new Dbconnection();
@@ -27,12 +27,13 @@ namespace HeavyBoot.WCFService
                     dataTable.DateClient = dateClient;
                     dataTable.ExporTime = exporTime;
                     dataTable.ImportTime = importTime;
+                    dataTable.IsChecked = isCkecked;
                     dbconnection.SaveChanges();
-                    return data + "_запись изменена";
+                    return dateClient.AddMinutes(2);
                 }
                 catch (Exception e)
                 {
-                    return e.ToString();
+                    return dateClient.AddMinutes(1);
                 }
 
             //Если записи нет, тогда добавляем ее
@@ -44,14 +45,16 @@ namespace HeavyBoot.WCFService
                     DateClient = dateClient,
                     DateServer = DateTime.Now,
                     ExporTime = exporTime,
-                    ImportTime = importTime
+                    ImportTime = importTime,
+                    IsChecked = false
+
                 });
                 dbconnection.SaveChanges();
-                return pcname + "_добавлено";
+                return DateTime.Now;
             }
             catch (Exception e)
             {
-                return e.ToString();
+                return DateTime.Now;
             }
         }
     }

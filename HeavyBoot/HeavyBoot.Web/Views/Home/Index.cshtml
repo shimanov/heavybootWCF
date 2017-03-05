@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HeavyBoot.DAL.Entitys.HBDataTable>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+        <table class="table table-bordered">
+            <tr>
+                <td>Pcname</td>
+                <td>DateServer</td>
+                <td>DateClient</td>
+                <td>ExportTime</td>
+                <td>ImportTime</td>
+                <td>IsChecked</td>
+            </tr>
+
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.Pcname</td>
+                    <td>@m.DateClient</td>
+                    <td>@m.DateClient</td>
+                    <td>@m.ExporTime</td>
+                    <td>@m.ImportTime</td>
+                    <td>@m.IsChecked</td>
+                </tr>
+            }
+        </table>
+    <input type="submit" value="ПНУТЬ!"/>
+}
+
+
+

@@ -23,9 +23,23 @@ namespace ClientApp
                 throw;
             }
 
-            string name = "r54-630062-n";
-            var r = client.DataTable(name, DateTime.Now, exportImport.DateTimeExport(), exportImport.DateTimeImport());
-            Console.WriteLine("Ответ от сервера: {0}", r);
+            string name = "r54-630112-n";
+            DateTime r = client.DataTable(name, DateTime.Now, exportImport.DateTimeExport(), exportImport.DateTimeImport(), IsCkecked());
+
+            if (r > DateTime.Now)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
+
+            bool IsCkecked()
+            {
+                return false;
+            }
+            client.Close();
 
             Console.ReadKey();
 

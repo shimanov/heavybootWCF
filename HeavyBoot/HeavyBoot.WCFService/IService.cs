@@ -7,6 +7,6 @@ namespace HeavyBoot.WCFService
     public interface IService
     {
         [OperationContract]
-        string DataTable(string pcname,  DateTime dateClient, DateTime exporTime, DateTime importTime);
+        DateTime DataTable(string pcname, DateTime dateClient, DateTime exporTime, DateTime importTime, bool isCkecked);
     }
 }

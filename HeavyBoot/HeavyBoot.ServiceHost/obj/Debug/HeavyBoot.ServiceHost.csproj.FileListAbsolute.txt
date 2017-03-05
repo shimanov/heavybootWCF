@@ -14,3 +14,4 @@ C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoo
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.csproj.GenerateResource.Cache
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.exe
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\obj\Debug\HeavyBoot.ServiceHost.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\HeavyBoot\HeavyBoot\HeavyBoot.ServiceHost\bin\Debug\ru\EntityFramework.resources.dll
