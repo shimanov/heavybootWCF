@@ -18,31 +18,24 @@ namespace HeavyBoot.Web.Controllers
         {
             return View(dbconnection.HbDataTables);
         }
-        //[HttpGet]
-        //public ActionResult Index(string pcname)
-        //{
-        //    if (pcname == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-
-        //    HBDataTable dataTable = dbconnection.HbDataTables.Find(pcname);
-        //    if (dataTable != null)
-        //    {
-        //        return View(dbconnection.HbDataTables);
-        //    }
-        //    return HttpNotFound();
-        //}
 
         [HttpPost]
-        public ActionResult Index(string pcname)
+        public string Index(IEnumerable<HBDataTable> dataTables)
         {
-            var save = dbconnection.HbDataTables
-                .Where(x => x.Pcname == pcname)
-                .Select(x => x).ToArray();
-            //dbconnection.Entry(dataTable).State = EntityState.Modified;
-            dbconnection.SaveChanges();
-            return RedirectToAction("Index");
+            if (dataTables.Count(x => x.IsChecked) == 0)
+            {
+                return "Не выбрано не одно ОПС для пинания";
+            }
+            foreach (HBDataTable dataTable in dataTables)
+            {
+                if (dataTable.IsChecked)
+                {
+                    dataTable.DateServer = DateTime.Now.AddMinutes(5);
+                    dataTable.IsChecked = true;
+                    dbconnection.SaveChanges();
+                }
+            }
+            return "Данные сохранены";
         }
     }
 }
